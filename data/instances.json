@@ -1,0 +1,7547 @@
+[
+ {
+  "id": "i000",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Ben",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    2,
+    7
+   ],
+   "Ben": [
+    5,
+    6,
+    7
+   ],
+   "Cara": [
+    1,
+    2,
+    5,
+    7
+   ],
+   "Dev": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "Eli": [
+    0,
+    7
+   ],
+   "Fay": [
+    1,
+    5,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Eli",
+    4
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i001",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    3,
+    7
+   ],
+   "Ben": [
+    2,
+    4
+   ],
+   "Cara": [
+    0,
+    4,
+    7
+   ],
+   "Dev": [
+    1,
+    3,
+    5,
+    7
+   ],
+   "Eli": [
+    3,
+    6,
+    7
+   ],
+   "Fay": [
+    1,
+    3,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Cara",
+    3
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 1
+ },
+ {
+  "id": "i002",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    3
+   ],
+   "Ben": [
+    0,
+    4,
+    5
+   ],
+   "Cara": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Dev": [
+    0,
+    1,
+    5
+   ],
+   "Eli": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "Fay": [
+    3,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    4
+   ],
+   "B": [
+    "Cara",
+    7
+   ],
+   "C": [
+    "Eli",
+    7
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i003",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    4,
+    6
+   ],
+   "Ben": [
+    1,
+    4,
+    7
+   ],
+   "Cara": [
+    0,
+    1,
+    5,
+    6
+   ],
+   "Dev": [
+    3,
+    5
+   ],
+   "Eli": [
+    0,
+    6
+   ],
+   "Fay": [
+    2,
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    6
+   ],
+   "B": [
+    "Cara",
+    7
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i004",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Cara"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    5,
+    6,
+    7
+   ],
+   "Ben": [
+    0,
+    4,
+    5,
+    6
+   ],
+   "Cara": [
+    0,
+    5
+   ],
+   "Dev": [
+    0,
+    3
+   ],
+   "Eli": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Fay": [
+    0,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Fay",
+    3
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i005",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Ben",
+    "Dev"
+   ],
+   "M4": [
+    "Ben",
+    "Eli"
+   ],
+   "M5": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    5
+   ],
+   "Ben": [
+    0,
+    5
+   ],
+   "Cara": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "Dev": [
+    0,
+    3
+   ],
+   "Eli": [
+    0,
+    1
+   ],
+   "Fay": [
+    0,
+    5,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    1
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Fay",
+    4
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i006",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    3,
+    6
+   ],
+   "Ben": [
+    0,
+    1
+   ],
+   "Cara": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "Dev": [
+    4,
+    7
+   ],
+   "Eli": [
+    0,
+    2,
+    5
+   ],
+   "Fay": [
+    0,
+    3
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    3
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Fay",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i007",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    5
+   ],
+   "Ben": [
+    0,
+    2
+   ],
+   "Cara": [
+    2,
+    5
+   ],
+   "Dev": [
+    2,
+    7
+   ],
+   "Eli": [
+    0,
+    4,
+    6
+   ],
+   "Fay": [
+    0,
+    1,
+    2
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    6
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i008",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    4,
+    7
+   ],
+   "Ben": [
+    0,
+    1
+   ],
+   "Cara": [
+    1,
+    6
+   ],
+   "Dev": [
+    2,
+    6
+   ],
+   "Eli": [
+    1,
+    4
+   ],
+   "Fay": [
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    1
+   ],
+   "B": [
+    "Cara",
+    3
+   ],
+   "C": [
+    "Fay",
+    0
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i009",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    4
+   ],
+   "Ben": [
+    1,
+    4
+   ],
+   "Cara": [
+    2,
+    5,
+    6,
+    7
+   ],
+   "Dev": [
+    0,
+    4,
+    7
+   ],
+   "Eli": [
+    5,
+    6
+   ],
+   "Fay": [
+    1,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i010",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    5,
+    7
+   ],
+   "Ben": [
+    2,
+    4
+   ],
+   "Cara": [
+    0,
+    1,
+    2
+   ],
+   "Dev": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "Eli": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "Fay": [
+    0,
+    2
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    6
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i011",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev"
+   ],
+   "M2": [
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M4": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    7
+   ],
+   "Ben": [
+    0,
+    3
+   ],
+   "Cara": [
+    1,
+    5
+   ],
+   "Dev": [
+    3,
+    4,
+    6,
+    7
+   ],
+   "Eli": [
+    1,
+    3,
+    5
+   ],
+   "Fay": [
+    3,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Fay",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i012",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    5
+   ],
+   "Ben": [
+    1,
+    2,
+    3
+   ],
+   "Cara": [
+    2,
+    4,
+    6
+   ],
+   "Dev": [
+    2,
+    3
+   ],
+   "Eli": [
+    1,
+    4,
+    5
+   ],
+   "Fay": [
+    0,
+    2,
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    0
+   ],
+   "B": [
+    "Cara",
+    3
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i013",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    5
+   ],
+   "Ben": [
+    2,
+    3,
+    4
+   ],
+   "Cara": [
+    0,
+    5
+   ],
+   "Dev": [
+    3,
+    5,
+    6
+   ],
+   "Eli": [
+    2,
+    3,
+    7
+   ],
+   "Fay": [
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    7
+   ],
+   "B": [
+    "Cara",
+    7
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i014",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M3": [
+    "Ben",
+    "Cara"
+   ],
+   "M4": [
+    "Alice",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    4,
+    5
+   ],
+   "Ben": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "Cara": [
+    5,
+    6
+   ],
+   "Dev": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "Eli": [
+    0,
+    1,
+    5,
+    6
+   ],
+   "Fay": [
+    1,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Cara",
+    0
+   ],
+   "C": [
+    "Eli",
+    4
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i015",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    3
+   ],
+   "Ben": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "Cara": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "Dev": [
+    3,
+    6
+   ],
+   "Eli": [
+    3,
+    4,
+    6
+   ],
+   "Fay": [
+    0,
+    3,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    7
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i016",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Eli"
+   ],
+   "M5": [
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    5,
+    7
+   ],
+   "Ben": [
+    1,
+    4,
+    5,
+    7
+   ],
+   "Cara": [
+    0,
+    4
+   ],
+   "Dev": [
+    0,
+    1
+   ],
+   "Eli": [
+    1,
+    3,
+    7
+   ],
+   "Fay": [
+    0,
+    1,
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i017",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    6
+   ],
+   "Ben": [
+    0,
+    3,
+    4,
+    6
+   ],
+   "Cara": [
+    0,
+    1,
+    3
+   ],
+   "Dev": [
+    1,
+    2,
+    4
+   ],
+   "Eli": [
+    0,
+    4,
+    7
+   ],
+   "Fay": [
+    2,
+    4,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Eli",
+    1
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i018",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    6
+   ],
+   "Ben": [
+    3,
+    4,
+    5
+   ],
+   "Cara": [
+    0,
+    3
+   ],
+   "Dev": [
+    0,
+    4,
+    5
+   ],
+   "Eli": [
+    0,
+    6,
+    7
+   ],
+   "Fay": [
+    0,
+    2,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    2
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i019",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Dev"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    5
+   ],
+   "Ben": [
+    3,
+    4,
+    5
+   ],
+   "Cara": [
+    0,
+    2,
+    4
+   ],
+   "Dev": [
+    0,
+    5
+   ],
+   "Eli": [
+    0,
+    1
+   ],
+   "Fay": [
+    0,
+    2,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i020",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    4,
+    7
+   ],
+   "Ben": [
+    2,
+    4,
+    7
+   ],
+   "Cara": [
+    4,
+    5
+   ],
+   "Dev": [
+    0,
+    4,
+    6,
+    7
+   ],
+   "Eli": [
+    0,
+    4,
+    7
+   ],
+   "Fay": [
+    2,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 1
+ },
+ {
+  "id": "i021",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    7
+   ],
+   "Ben": [
+    2,
+    3
+   ],
+   "Cara": [
+    1,
+    5,
+    6
+   ],
+   "Dev": [
+    1,
+    3,
+    5
+   ],
+   "Eli": [
+    2,
+    4,
+    6
+   ],
+   "Fay": [
+    3,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    4
+   ],
+   "B": [
+    "Dev",
+    4
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i022",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Eli"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    6,
+    7
+   ],
+   "Ben": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "Cara": [
+    2,
+    5
+   ],
+   "Dev": [
+    1,
+    3,
+    6,
+    7
+   ],
+   "Eli": [
+    1,
+    5
+   ],
+   "Fay": [
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Cara",
+    3
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i023",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    7
+   ],
+   "Ben": [
+    5,
+    6
+   ],
+   "Cara": [
+    0,
+    5,
+    7
+   ],
+   "Dev": [
+    2,
+    3,
+    7
+   ],
+   "Eli": [
+    0,
+    4,
+    5
+   ],
+   "Fay": [
+    0,
+    1,
+    2
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    4
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i024",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M2": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Dev"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    6,
+    7
+   ],
+   "Ben": [
+    4,
+    6
+   ],
+   "Cara": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "Dev": [
+    1,
+    3,
+    7
+   ],
+   "Eli": [
+    0,
+    4,
+    6
+   ],
+   "Fay": [
+    3,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    1
+   ],
+   "B": [
+    "Cara",
+    6
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i025",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    5,
+    6
+   ],
+   "Ben": [
+    0,
+    7
+   ],
+   "Cara": [
+    0,
+    3,
+    7
+   ],
+   "Dev": [
+    0,
+    2,
+    6,
+    7
+   ],
+   "Eli": [
+    1,
+    4,
+    5
+   ],
+   "Fay": [
+    2,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Cara",
+    1
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i026",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Ben",
+    "Cara"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    3,
+    6,
+    7
+   ],
+   "Ben": [
+    1,
+    3,
+    6
+   ],
+   "Cara": [
+    5,
+    6,
+    7
+   ],
+   "Dev": [
+    0,
+    2,
+    4,
+    7
+   ],
+   "Eli": [
+    2,
+    4,
+    6
+   ],
+   "Fay": [
+    2,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    5
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Eli",
+    7
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i027",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    7
+   ],
+   "Ben": [
+    1,
+    2,
+    5
+   ],
+   "Cara": [
+    0,
+    3,
+    5
+   ],
+   "Dev": [
+    3,
+    4,
+    7
+   ],
+   "Eli": [
+    1,
+    5
+   ],
+   "Fay": [
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    2
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i028",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M4": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    5,
+    6,
+    7
+   ],
+   "Ben": [
+    2,
+    7
+   ],
+   "Cara": [
+    2,
+    7
+   ],
+   "Dev": [
+    0,
+    5,
+    6,
+    7
+   ],
+   "Eli": [
+    0,
+    4,
+    6,
+    7
+   ],
+   "Fay": [
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    4
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i029",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Dev"
+   ],
+   "M4": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    4,
+    7
+   ],
+   "Ben": [
+    3,
+    6,
+    7
+   ],
+   "Cara": [
+    0,
+    3,
+    4,
+    6
+   ],
+   "Dev": [
+    3,
+    4,
+    6
+   ],
+   "Eli": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "Fay": [
+    2,
+    3,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Fay",
+    1
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i030",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    5,
+    6
+   ],
+   "Ben": [
+    3,
+    4,
+    6
+   ],
+   "Cara": [
+    0,
+    2,
+    3
+   ],
+   "Dev": [
+    0,
+    1,
+    4
+   ],
+   "Eli": [
+    1,
+    4
+   ],
+   "Fay": [
+    2,
+    3,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    0
+   ],
+   "B": [
+    "Dev",
+    7
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i031",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "Ben": [
+    1,
+    3,
+    6
+   ],
+   "Cara": [
+    0,
+    2
+   ],
+   "Dev": [
+    0,
+    4
+   ],
+   "Eli": [
+    0,
+    1
+   ],
+   "Fay": [
+    0,
+    1,
+    3
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    4
+   ],
+   "B": [
+    "Dev",
+    3
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i032",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara"
+   ],
+   "M2": [
+    "Alice",
+    "Eli"
+   ],
+   "M3": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    4
+   ],
+   "Ben": [
+    0,
+    3,
+    4
+   ],
+   "Cara": [
+    0,
+    5,
+    6
+   ],
+   "Dev": [
+    0,
+    3,
+    5
+   ],
+   "Eli": [
+    0,
+    5
+   ],
+   "Fay": [
+    1,
+    2,
+    5,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Cara",
+    7
+   ],
+   "C": [
+    "Eli",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i033",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    4,
+    5
+   ],
+   "Ben": [
+    0,
+    4
+   ],
+   "Cara": [
+    2,
+    3
+   ],
+   "Dev": [
+    2,
+    3,
+    6
+   ],
+   "Eli": [
+    2,
+    5
+   ],
+   "Fay": [
+    0,
+    1,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    7
+   ],
+   "B": [
+    "Cara",
+    6
+   ],
+   "C": [
+    "Eli",
+    0
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i034",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Dev"
+   ],
+   "M5": [
+    "Ben",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "Ben": [
+    0,
+    4
+   ],
+   "Cara": [
+    1,
+    2
+   ],
+   "Dev": [
+    6,
+    7
+   ],
+   "Eli": [
+    2,
+    3,
+    7
+   ],
+   "Fay": [
+    1,
+    3,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    1
+   ],
+   "B": [
+    "Dev",
+    0
+   ],
+   "C": [
+    "Eli",
+    4
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 1
+ },
+ {
+  "id": "i035",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "Ben": [
+    0,
+    2,
+    5
+   ],
+   "Cara": [
+    2,
+    7
+   ],
+   "Dev": [
+    1,
+    3
+   ],
+   "Eli": [
+    2,
+    5
+   ],
+   "Fay": [
+    0,
+    5,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    7
+   ],
+   "B": [
+    "Cara",
+    1
+   ],
+   "C": [
+    "Fay",
+    1
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i036",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    6,
+    7
+   ],
+   "Ben": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "Cara": [
+    3,
+    4,
+    7
+   ],
+   "Dev": [
+    3,
+    4,
+    6,
+    7
+   ],
+   "Eli": [
+    0,
+    4
+   ],
+   "Fay": [
+    1,
+    3,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    1
+   ],
+   "B": [
+    "Dev",
+    0
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i037",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    6
+   ],
+   "Ben": [
+    3,
+    6,
+    7
+   ],
+   "Cara": [
+    1,
+    3
+   ],
+   "Dev": [
+    2,
+    3
+   ],
+   "Eli": [
+    2,
+    3,
+    6
+   ],
+   "Fay": [
+    1,
+    3
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    4
+   ],
+   "B": [
+    "Dev",
+    0
+   ],
+   "C": [
+    "Eli",
+    4
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i038",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Eli"
+   ],
+   "M2": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Dev"
+   ],
+   "M4": [
+    "Ben",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    5,
+    6
+   ],
+   "Ben": [
+    2,
+    4
+   ],
+   "Cara": [
+    5,
+    6,
+    7
+   ],
+   "Dev": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "Eli": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "Fay": [
+    5,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    0
+   ],
+   "B": [
+    "Cara",
+    0
+   ],
+   "C": [
+    "Fay",
+    3
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i039",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Cara"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    3
+   ],
+   "Ben": [
+    0,
+    6,
+    7
+   ],
+   "Cara": [
+    0,
+    7
+   ],
+   "Dev": [
+    1,
+    3,
+    7
+   ],
+   "Eli": [
+    0,
+    1,
+    6
+   ],
+   "Fay": [
+    0,
+    2,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Eli",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i040",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Cara"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    4
+   ],
+   "Ben": [
+    0,
+    2,
+    5
+   ],
+   "Cara": [
+    1,
+    7
+   ],
+   "Dev": [
+    1,
+    2
+   ],
+   "Eli": [
+    1,
+    4,
+    6,
+    7
+   ],
+   "Fay": [
+    1,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i041",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Alice",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    3
+   ],
+   "Ben": [
+    3,
+    7
+   ],
+   "Cara": [
+    1,
+    5
+   ],
+   "Dev": [
+    1,
+    2
+   ],
+   "Eli": [
+    0,
+    1
+   ],
+   "Fay": [
+    0,
+    5,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    6
+   ],
+   "B": [
+    "Cara",
+    0
+   ],
+   "C": [
+    "Eli",
+    6
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i042",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Ben",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    7
+   ],
+   "Ben": [
+    1,
+    2,
+    3
+   ],
+   "Cara": [
+    0,
+    1
+   ],
+   "Dev": [
+    0,
+    1,
+    6
+   ],
+   "Eli": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "Fay": [
+    0,
+    4,
+    5,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    6
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Eli",
+    6
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i043",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    3,
+    7
+   ],
+   "Ben": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Cara": [
+    1,
+    7
+   ],
+   "Dev": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "Eli": [
+    5,
+    7
+   ],
+   "Fay": [
+    0,
+    5,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    4
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i044",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    6
+   ],
+   "Ben": [
+    4,
+    5
+   ],
+   "Cara": [
+    0,
+    6,
+    7
+   ],
+   "Dev": [
+    0,
+    3,
+    7
+   ],
+   "Eli": [
+    3,
+    4,
+    6
+   ],
+   "Fay": [
+    1,
+    3,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    1
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Fay",
+    0
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i045",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    3,
+    5
+   ],
+   "Ben": [
+    1,
+    7
+   ],
+   "Cara": [
+    1,
+    2,
+    6
+   ],
+   "Dev": [
+    0,
+    3,
+    6
+   ],
+   "Eli": [
+    1,
+    6
+   ],
+   "Fay": [
+    3,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    4
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i046",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    7
+   ],
+   "Ben": [
+    0,
+    2,
+    7
+   ],
+   "Cara": [
+    1,
+    2
+   ],
+   "Dev": [
+    2,
+    7
+   ],
+   "Eli": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "Fay": [
+    4,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i047",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    7
+   ],
+   "Ben": [
+    5,
+    6,
+    7
+   ],
+   "Cara": [
+    0,
+    3,
+    5,
+    7
+   ],
+   "Dev": [
+    3,
+    5,
+    7
+   ],
+   "Eli": [
+    3,
+    5,
+    6,
+    7
+   ],
+   "Fay": [
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    1
+   ],
+   "B": [
+    "Dev",
+    4
+   ],
+   "C": [
+    "Eli",
+    1
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i048",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    4,
+    7
+   ],
+   "Ben": [
+    0,
+    6
+   ],
+   "Cara": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "Dev": [
+    0,
+    6,
+    7
+   ],
+   "Eli": [
+    2,
+    5
+   ],
+   "Fay": [
+    1,
+    3,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    2
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Eli",
+    4
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i049",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    5
+   ],
+   "Ben": [
+    2,
+    4
+   ],
+   "Cara": [
+    0,
+    5,
+    6
+   ],
+   "Dev": [
+    2,
+    4,
+    7
+   ],
+   "Eli": [
+    2,
+    6
+   ],
+   "Fay": [
+    1,
+    2,
+    3
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    4
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i050",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Fay"
+   ],
+   "M4": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    5,
+    6,
+    7
+   ],
+   "Ben": [
+    0,
+    1,
+    5,
+    7
+   ],
+   "Cara": [
+    0,
+    5
+   ],
+   "Dev": [
+    2,
+    5
+   ],
+   "Eli": [
+    5,
+    7
+   ],
+   "Fay": [
+    5,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Cara",
+    3
+   ],
+   "C": [
+    "Fay",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i051",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    6
+   ],
+   "Ben": [
+    2,
+    6,
+    7
+   ],
+   "Cara": [
+    0,
+    4,
+    5,
+    7
+   ],
+   "Dev": [
+    0,
+    2,
+    4,
+    7
+   ],
+   "Eli": [
+    4,
+    6
+   ],
+   "Fay": [
+    4,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Cara",
+    1
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i052",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    2
+   ],
+   "Ben": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "Cara": [
+    0,
+    4,
+    6,
+    7
+   ],
+   "Dev": [
+    1,
+    3,
+    4
+   ],
+   "Eli": [
+    4,
+    7
+   ],
+   "Fay": [
+    0,
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Fay",
+    1
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i053",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    4,
+    6,
+    7
+   ],
+   "Ben": [
+    0,
+    1
+   ],
+   "Cara": [
+    1,
+    3,
+    6
+   ],
+   "Dev": [
+    1,
+    2,
+    4
+   ],
+   "Eli": [
+    0,
+    7
+   ],
+   "Fay": [
+    0,
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i054",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    4,
+    6
+   ],
+   "Ben": [
+    0,
+    5,
+    6
+   ],
+   "Cara": [
+    0,
+    1,
+    2,
+    7
+   ],
+   "Dev": [
+    0,
+    4
+   ],
+   "Eli": [
+    0,
+    2,
+    4
+   ],
+   "Fay": [
+    4,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    7
+   ],
+   "B": [
+    "Cara",
+    6
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i055",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    4
+   ],
+   "Ben": [
+    3,
+    4
+   ],
+   "Cara": [
+    2,
+    3,
+    5,
+    6
+   ],
+   "Dev": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "Eli": [
+    2,
+    5
+   ],
+   "Fay": [
+    1,
+    3,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    7
+   ],
+   "B": [
+    "Dev",
+    5
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i056",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    7
+   ],
+   "Ben": [
+    0,
+    4
+   ],
+   "Cara": [
+    2,
+    3,
+    6,
+    7
+   ],
+   "Dev": [
+    3,
+    5
+   ],
+   "Eli": [
+    2,
+    4,
+    6,
+    7
+   ],
+   "Fay": [
+    3,
+    4,
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    4
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i057",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    3,
+    4
+   ],
+   "Ben": [
+    4,
+    7
+   ],
+   "Cara": [
+    3,
+    4,
+    7
+   ],
+   "Dev": [
+    1,
+    7
+   ],
+   "Eli": [
+    1,
+    2,
+    7
+   ],
+   "Fay": [
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i058",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M2": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    4
+   ],
+   "Ben": [
+    2,
+    4,
+    6
+   ],
+   "Cara": [
+    1,
+    5
+   ],
+   "Dev": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "Eli": [
+    1,
+    5,
+    6
+   ],
+   "Fay": [
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    2
+   ],
+   "B": [
+    "Cara",
+    0
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i059",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    4,
+    7
+   ],
+   "Ben": [
+    0,
+    7
+   ],
+   "Cara": [
+    2,
+    7
+   ],
+   "Dev": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "Eli": [
+    0,
+    4,
+    6
+   ],
+   "Fay": [
+    3,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 1
+ },
+ {
+  "id": "i060",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M2": [
+    "Dev",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "Ben": [
+    3,
+    4
+   ],
+   "Cara": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "Dev": [
+    1,
+    6
+   ],
+   "Eli": [
+    1,
+    6,
+    7
+   ],
+   "Fay": [
+    3,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    4
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i061",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Eli"
+   ],
+   "M3": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Cara"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "Ben": [
+    1,
+    5,
+    7
+   ],
+   "Cara": [
+    1,
+    7
+   ],
+   "Dev": [
+    3,
+    6
+   ],
+   "Eli": [
+    1,
+    6,
+    7
+   ],
+   "Fay": [
+    0,
+    1,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    4
+   ],
+   "B": [
+    "Dev",
+    0
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i062",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M3": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    7
+   ],
+   "Ben": [
+    0,
+    2,
+    6,
+    7
+   ],
+   "Cara": [
+    0,
+    7
+   ],
+   "Dev": [
+    2,
+    5
+   ],
+   "Eli": [
+    0,
+    7
+   ],
+   "Fay": [
+    0,
+    1,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    1
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i063",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    2,
+    7
+   ],
+   "Ben": [
+    0,
+    4,
+    5,
+    6
+   ],
+   "Cara": [
+    2,
+    4
+   ],
+   "Dev": [
+    0,
+    6,
+    7
+   ],
+   "Eli": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "Fay": [
+    1,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    3
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Fay",
+    4
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i064",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    7
+   ],
+   "Ben": [
+    0,
+    3,
+    7
+   ],
+   "Cara": [
+    4,
+    6
+   ],
+   "Dev": [
+    2,
+    7
+   ],
+   "Eli": [
+    0,
+    6
+   ],
+   "Fay": [
+    4,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    4
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i065",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M2": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    3,
+    6
+   ],
+   "Ben": [
+    3,
+    6,
+    7
+   ],
+   "Cara": [
+    1,
+    3,
+    4
+   ],
+   "Dev": [
+    3,
+    5
+   ],
+   "Eli": [
+    0,
+    3,
+    6,
+    7
+   ],
+   "Fay": [
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Fay",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i066",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    7
+   ],
+   "Ben": [
+    3,
+    5,
+    7
+   ],
+   "Cara": [
+    4,
+    5,
+    6
+   ],
+   "Dev": [
+    2,
+    7
+   ],
+   "Eli": [
+    3,
+    6,
+    7
+   ],
+   "Fay": [
+    1,
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    4
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Fay",
+    3
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i067",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "Ben": [
+    3,
+    6
+   ],
+   "Cara": [
+    0,
+    4,
+    5
+   ],
+   "Dev": [
+    4,
+    5
+   ],
+   "Eli": [
+    3,
+    5,
+    6
+   ],
+   "Fay": [
+    1,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    7
+   ],
+   "B": [
+    "Cara",
+    2
+   ],
+   "C": [
+    "Fay",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i068",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "Ben": [
+    5,
+    7
+   ],
+   "Cara": [
+    1,
+    7
+   ],
+   "Dev": [
+    3,
+    7
+   ],
+   "Eli": [
+    5,
+    7
+   ],
+   "Fay": [
+    1,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Cara",
+    2
+   ],
+   "C": [
+    "Eli",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i069",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "Ben": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "Cara": [
+    4,
+    6
+   ],
+   "Dev": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "Eli": [
+    3,
+    5,
+    6,
+    7
+   ],
+   "Fay": [
+    2,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    6
+   ],
+   "B": [
+    "Dev",
+    0
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i070",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Dev"
+   ],
+   "M5": [
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    3,
+    6,
+    7
+   ],
+   "Ben": [
+    1,
+    2,
+    4
+   ],
+   "Cara": [
+    2,
+    4
+   ],
+   "Dev": [
+    0,
+    6,
+    7
+   ],
+   "Eli": [
+    2,
+    3,
+    7
+   ],
+   "Fay": [
+    0,
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    3
+   ],
+   "B": [
+    "Cara",
+    0
+   ],
+   "C": [
+    "Eli",
+    4
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i071",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    4,
+    7
+   ],
+   "Ben": [
+    1,
+    4,
+    5,
+    7
+   ],
+   "Cara": [
+    4,
+    7
+   ],
+   "Dev": [
+    1,
+    7
+   ],
+   "Eli": [
+    3,
+    5,
+    7
+   ],
+   "Fay": [
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Cara",
+    2
+   ],
+   "C": [
+    "Eli",
+    1
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i072",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Cara",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    5,
+    7
+   ],
+   "Ben": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "Cara": [
+    0,
+    1
+   ],
+   "Dev": [
+    2,
+    7
+   ],
+   "Eli": [
+    2,
+    5
+   ],
+   "Fay": [
+    2,
+    5,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Cara",
+    3
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i073",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M2": [
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    2
+   ],
+   "Ben": [
+    1,
+    3,
+    6,
+    7
+   ],
+   "Cara": [
+    2,
+    3
+   ],
+   "Dev": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "Eli": [
+    5,
+    7
+   ],
+   "Fay": [
+    1,
+    3,
+    4,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i074",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    7
+   ],
+   "Ben": [
+    0,
+    2,
+    3
+   ],
+   "Cara": [
+    3,
+    4,
+    7
+   ],
+   "Dev": [
+    5,
+    7
+   ],
+   "Eli": [
+    3,
+    7
+   ],
+   "Fay": [
+    1,
+    5,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    6
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Fay",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 1
+ },
+ {
+  "id": "i075",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M4": [
+    "Cara",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    7
+   ],
+   "Ben": [
+    0,
+    4
+   ],
+   "Cara": [
+    0,
+    2,
+    6,
+    7
+   ],
+   "Dev": [
+    0,
+    6,
+    7
+   ],
+   "Eli": [
+    4,
+    6,
+    7
+   ],
+   "Fay": [
+    0,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    5
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i076",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M2": [
+    "Alice",
+    "Dev"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M4": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    7
+   ],
+   "Ben": [
+    2,
+    7
+   ],
+   "Cara": [
+    0,
+    5,
+    6,
+    7
+   ],
+   "Dev": [
+    3,
+    5,
+    7
+   ],
+   "Eli": [
+    3,
+    7
+   ],
+   "Fay": [
+    1,
+    3,
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    6
+   ],
+   "B": [
+    "Cara",
+    2
+   ],
+   "C": [
+    "Fay",
+    0
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i077",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    6,
+    7
+   ],
+   "Ben": [
+    2,
+    4
+   ],
+   "Cara": [
+    1,
+    3,
+    4,
+    6
+   ],
+   "Dev": [
+    2,
+    3
+   ],
+   "Eli": [
+    0,
+    3,
+    5
+   ],
+   "Fay": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    1
+   ],
+   "B": [
+    "Cara",
+    7
+   ],
+   "C": [
+    "Eli",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i078",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Alice",
+    "Cara"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    6
+   ],
+   "Ben": [
+    3,
+    7
+   ],
+   "Cara": [
+    0,
+    3,
+    4,
+    5
+   ],
+   "Dev": [
+    2,
+    5
+   ],
+   "Eli": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "Fay": [
+    0,
+    1,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Cara",
+    2
+   ],
+   "C": [
+    "Eli",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i079",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Eli"
+   ],
+   "M5": [
+    "Ben",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    6
+   ],
+   "Ben": [
+    5,
+    6,
+    7
+   ],
+   "Cara": [
+    1,
+    3
+   ],
+   "Dev": [
+    4,
+    5
+   ],
+   "Eli": [
+    1,
+    3,
+    6
+   ],
+   "Fay": [
+    0,
+    2,
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    3
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i080",
+  "attendees": {
+   "M1": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Cara"
+   ],
+   "M4": [
+    "Alice",
+    "Cara"
+   ],
+   "M5": [
+    "Alice",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    4,
+    7
+   ],
+   "Ben": [
+    2,
+    3,
+    7
+   ],
+   "Cara": [
+    1,
+    6,
+    7
+   ],
+   "Dev": [
+    4,
+    7
+   ],
+   "Eli": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "Fay": [
+    1,
+    3,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Eli",
+    1
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i081",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M4": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1
+   ],
+   "Ben": [
+    0,
+    1
+   ],
+   "Cara": [
+    0,
+    5,
+    7
+   ],
+   "Dev": [
+    1,
+    4
+   ],
+   "Eli": [
+    0,
+    5
+   ],
+   "Fay": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    2
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Eli",
+    6
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i082",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Dev",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "Ben": [
+    4,
+    5,
+    6
+   ],
+   "Cara": [
+    0,
+    4
+   ],
+   "Dev": [
+    0,
+    4,
+    5
+   ],
+   "Eli": [
+    2,
+    5
+   ],
+   "Fay": [
+    2,
+    3
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    7
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 1
+ },
+ {
+  "id": "i083",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Cara"
+   ],
+   "M5": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    3,
+    4
+   ],
+   "Ben": [
+    2,
+    4,
+    5
+   ],
+   "Cara": [
+    0,
+    6
+   ],
+   "Dev": [
+    5,
+    6
+   ],
+   "Eli": [
+    0,
+    3,
+    5
+   ],
+   "Fay": [
+    0,
+    2,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    7
+   ],
+   "B": [
+    "Dev",
+    4
+   ],
+   "C": [
+    "Eli",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i084",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M4": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Cara"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    4,
+    6
+   ],
+   "Ben": [
+    0,
+    6
+   ],
+   "Cara": [
+    0,
+    1,
+    6,
+    7
+   ],
+   "Dev": [
+    1,
+    3,
+    4,
+    6
+   ],
+   "Eli": [
+    0,
+    3,
+    4,
+    6
+   ],
+   "Fay": [
+    0,
+    2,
+    4,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    5
+   ],
+   "B": [
+    "Cara",
+    4
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i085",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M5": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    4,
+    5
+   ],
+   "Ben": [
+    2,
+    3
+   ],
+   "Cara": [
+    1,
+    2,
+    6
+   ],
+   "Dev": [
+    2,
+    3,
+    5
+   ],
+   "Eli": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "Fay": [
+    0,
+    3,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    6
+   ],
+   "B": [
+    "Cara",
+    0
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i086",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    4
+   ],
+   "Ben": [
+    0,
+    6
+   ],
+   "Cara": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Dev": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "Eli": [
+    0,
+    1,
+    5
+   ],
+   "Fay": [
+    0,
+    1
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    2
+   ],
+   "B": [
+    "Cara",
+    5
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i087",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Dev"
+   ],
+   "M4": [
+    "Alice",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    4
+   ],
+   "Ben": [
+    0,
+    2,
+    3
+   ],
+   "Cara": [
+    3,
+    4,
+    5
+   ],
+   "Dev": [
+    1,
+    3
+   ],
+   "Eli": [
+    0,
+    3,
+    5
+   ],
+   "Fay": [
+    0,
+    2,
+    6,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    1
+   ],
+   "B": [
+    "Cara",
+    7
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i088",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Dev"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M4": [
+    "Alice",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    6,
+    7
+   ],
+   "Ben": [
+    6,
+    7
+   ],
+   "Cara": [
+    3,
+    4,
+    7
+   ],
+   "Dev": [
+    1,
+    5,
+    7
+   ],
+   "Eli": [
+    5,
+    7
+   ],
+   "Fay": [
+    1,
+    2,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    3
+   ],
+   "B": [
+    "Cara",
+    2
+   ],
+   "C": [
+    "Fay",
+    4
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i089",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Fay"
+   ],
+   "M3": [
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Dev"
+   ],
+   "M5": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    5,
+    6
+   ],
+   "Ben": [
+    2,
+    7
+   ],
+   "Cara": [
+    0,
+    4,
+    6,
+    7
+   ],
+   "Dev": [
+    0,
+    3,
+    5
+   ],
+   "Eli": [
+    0,
+    5,
+    7
+   ],
+   "Fay": [
+    1,
+    2
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Eli",
+    6
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i090",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev"
+   ],
+   "M2": [
+    "Alice",
+    "Dev",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    7
+   ],
+   "Ben": [
+    1,
+    2,
+    4
+   ],
+   "Cara": [
+    5,
+    7
+   ],
+   "Dev": [
+    0,
+    1,
+    6,
+    7
+   ],
+   "Eli": [
+    2,
+    5
+   ],
+   "Fay": [
+    1,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Fay",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i091",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M4": [
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    5
+   ],
+   "Ben": [
+    2,
+    5
+   ],
+   "Cara": [
+    3,
+    5,
+    6
+   ],
+   "Dev": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "Eli": [
+    1,
+    6
+   ],
+   "Fay": [
+    2,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    3
+   ],
+   "B": [
+    "Dev",
+    0
+   ],
+   "C": [
+    "Fay",
+    1
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i092",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M5": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    3,
+    4
+   ],
+   "Ben": [
+    1,
+    3,
+    4
+   ],
+   "Cara": [
+    1,
+    5,
+    7
+   ],
+   "Dev": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "Eli": [
+    0,
+    4
+   ],
+   "Fay": [
+    0,
+    2,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    5
+   ],
+   "B": [
+    "Dev",
+    3
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i093",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Dev",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    7
+   ],
+   "Ben": [
+    4,
+    6
+   ],
+   "Cara": [
+    0,
+    6,
+    7
+   ],
+   "Dev": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "Eli": [
+    0,
+    7
+   ],
+   "Fay": [
+    0,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    5
+   ],
+   "B": [
+    "Dev",
+    2
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 3
+ },
+ {
+  "id": "i094",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Fay"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Dev",
+    "Eli",
+    "Fay"
+   ],
+   "M4": [
+    "Ben",
+    "Cara",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    7
+   ],
+   "Ben": [
+    1,
+    4
+   ],
+   "Cara": [
+    2,
+    4
+   ],
+   "Dev": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "Eli": [
+    3,
+    4,
+    6,
+    7
+   ],
+   "Fay": [
+    1,
+    4,
+    5
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    6
+   ],
+   "B": [
+    "Cara",
+    6
+   ],
+   "C": [
+    "Eli",
+    5
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i095",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Fay"
+   ],
+   "M2": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Eli"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Cara",
+    "Eli",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "Ben": [
+    0,
+    2,
+    3
+   ],
+   "Cara": [
+    0,
+    4,
+    5,
+    6
+   ],
+   "Dev": [
+    0,
+    3,
+    5
+   ],
+   "Eli": [
+    0,
+    2,
+    4
+   ],
+   "Fay": [
+    4,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    7
+   ],
+   "B": [
+    "Cara",
+    1
+   ],
+   "C": [
+    "Fay",
+    7
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 2
+ },
+ {
+  "id": "i096",
+  "attendees": {
+   "M1": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M3": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev",
+    "Eli"
+   ],
+   "M5": [
+    "Dev",
+    "Eli"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    3,
+    4,
+    5
+   ],
+   "Ben": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "Cara": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "Dev": [
+    1,
+    5
+   ],
+   "Eli": [
+    1,
+    5
+   ],
+   "Fay": [
+    0,
+    3,
+    4
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    7
+   ],
+   "B": [
+    "Dev",
+    6
+   ],
+   "C": [
+    "Fay",
+    6
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i097",
+  "attendees": {
+   "M1": [
+    "Alice",
+    "Eli"
+   ],
+   "M2": [
+    "Cara",
+    "Fay"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Dev"
+   ],
+   "M4": [
+    "Alice",
+    "Eli",
+    "Fay"
+   ],
+   "M5": [
+    "Ben",
+    "Dev",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    1,
+    5
+   ],
+   "Ben": [
+    0,
+    2,
+    6
+   ],
+   "Cara": [
+    0,
+    5
+   ],
+   "Dev": [
+    3,
+    4,
+    6
+   ],
+   "Eli": [
+    1,
+    4,
+    7
+   ],
+   "Fay": [
+    0,
+    1,
+    6
+   ]
+  },
+  "updates": {
+   "A": [
+    "Alice",
+    0
+   ],
+   "B": [
+    "Dev",
+    7
+   ],
+   "C": [
+    "Eli",
+    2
+   ]
+  },
+  "failing": "C",
+  "n_solutions": 3
+ },
+ {
+  "id": "i098",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Dev",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Cara",
+    "Eli"
+   ],
+   "M3": [
+    "Ben",
+    "Cara",
+    "Eli"
+   ],
+   "M4": [
+    "Ben",
+    "Dev"
+   ],
+   "M5": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    0,
+    1,
+    2,
+    7
+   ],
+   "Ben": [
+    3,
+    7
+   ],
+   "Cara": [
+    4,
+    7
+   ],
+   "Dev": [
+    2,
+    3,
+    4
+   ],
+   "Eli": [
+    1,
+    4,
+    7
+   ],
+   "Fay": [
+    1,
+    5,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    0
+   ],
+   "B": [
+    "Dev",
+    1
+   ],
+   "C": [
+    "Eli",
+    3
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ },
+ {
+  "id": "i099",
+  "attendees": {
+   "M1": [
+    "Cara",
+    "Eli"
+   ],
+   "M2": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M3": [
+    "Alice",
+    "Ben",
+    "Cara"
+   ],
+   "M4": [
+    "Alice",
+    "Ben",
+    "Fay"
+   ],
+   "M5": [
+    "Alice",
+    "Dev"
+   ]
+  },
+  "busy": {
+   "Alice": [
+    2,
+    3,
+    4
+   ],
+   "Ben": [
+    3,
+    4
+   ],
+   "Cara": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "Dev": [
+    3,
+    4,
+    7
+   ],
+   "Eli": [
+    0,
+    3,
+    6,
+    7
+   ],
+   "Fay": [
+    2,
+    4,
+    7
+   ]
+  },
+  "updates": {
+   "A": [
+    "Ben",
+    0
+   ],
+   "B": [
+    "Dev",
+    0
+   ],
+   "C": [
+    "Fay",
+    1
+   ]
+  },
+  "failing": "B",
+  "n_solutions": 2
+ }
+]
