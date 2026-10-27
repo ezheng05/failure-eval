@@ -23,6 +23,14 @@ PRICES = {
     "claude-opus-5-5": (4.00, 20.00),
 }
 JUDGE_MODEL = "claude-sonnet-5-5"
+# same effort for every model so the comparison is fair; thinking counts toward max_tokens
+EFFORT = "low"
+MAX_TOKENS = 16000
+
+
+def cost(model, tin, tout):
+    pin, pout = PRICES.get(model, (0, 0))
+    return tin / 1e6 * pin + tout / 1e6 * pout
 
 
 class Budget:
@@ -31,8 +39,7 @@ class Budget:
         self.spent = 0.0
 
     def add(self, model, tin, tout):
-        pin, pout = PRICES.get(model, (0, 0))
-        self.spent += tin / 1e6 * pin + tout / 1e6 * pout
+        self.spent += cost(model, tin, tout)
 
     def exhausted(self):
         return self.spent >= self.limit
@@ -41,17 +48,19 @@ class Budget:
 # clients
 
 class AnthropicClient:
-    def __init__(self):
+    def __init__(self, effort=EFFORT):
         from anthropic import AsyncAnthropic
         self.c = AsyncAnthropic(max_retries=8)
+        self.effort = effort
 
     async def complete(self, model, system, user, max_tokens):
         r = await self.c.messages.create(
             model=model, max_tokens=max_tokens, system=system,
             messages=[{"role": "user", "content": user}],
+            output_config={"effort": self.effort},
         )
         text = "".join(b.text for b in r.content if getattr(b, "type", "") == "text")
-        return text, r.usage.input_tokens, r.usage.output_tokens
+        return text, r.usage.input_tokens, r.usage.output_tokens, r.stop_reason
 
 
 class MockClient:
@@ -66,7 +75,7 @@ class MockClient:
             hit = self.rng.random() < 0.5
             out = json.dumps({"flagged": hit, "first_message": 4 if hit else None,
                               "flagged_lead": "C" if hit else None, "quote": ""})
-            return out, tin, 40
+            return out, tin, 40, "end_turn"
         lead = system.split("You are Lead ")[1][0]
         rnd = int(user.split("It is now round ")[1].split()[0])
         slots = self.rng.sample(SLOTS, len(MEETINGS))
@@ -77,14 +86,15 @@ class MockClient:
             out = f"Mock lead {lead} agrees.\nCONFIRM {sched}"
         else:
             out = f"Mock lead {lead} sharing availability."
-        return out, tin, len(out) // 4
+        return out, tin, len(out) // 4, "end_turn"
 
 
 # episode
 
-async def run_episode(client, budget, inst, model, condition, max_rounds=6, max_tokens=500):
+async def run_episode(client, budget, inst, model, condition, max_rounds=6, max_tokens=MAX_TOKENS):
     log = []  # visible channel
     tin = tout = 0
+    truncated = empty = 0
     restart_at = None
     stale_msg = None
     outcome, submitted, escalation = "timeout", None, None
@@ -108,8 +118,10 @@ async def run_episode(client, budget, inst, model, condition, max_rounds=6, max_
                 start = restart_at
             sys_p = system_prompt(inst, lead, max_rounds)
             user = turn_prompt(inst, lead, rnd, max_rounds, log[start:])
-            text, i, o = await client.complete(model, sys_p, user, max_tokens)
+            text, i, o, stop = await client.complete(model, sys_p, user, max_tokens)
             tin, tout = tin + i, tout + o
+            truncated += stop == "max_tokens"
+            empty += not text.strip()
             budget.add(model, i, o)
             kind = "restarted" if broken else "llm"
             log.append({"round": rnd, "lead": lead, "text": text.strip(), "kind": kind})
@@ -131,6 +143,7 @@ async def run_episode(client, budget, inst, model, condition, max_rounds=6, max_
         "instance": inst.id, "model": model, "condition": condition, "failing": inst.failing,
         "outcome": outcome, "escalation": escalation, "messages": sum(m["lead"] in LEADS for m in log),
         "rounds": log[-1]["round"] if log else 0, "tokens_in": tin, "tokens_out": tout,
+        "cost": round(cost(model, tin, tout), 5), "truncated": truncated, "empty": empty,
         "seconds": round(time.time() - t0, 1), "log": log,
     }
     rec.update(_score(inst, log, outcome, submitted))
@@ -158,8 +171,9 @@ def _score(inst, log, outcome, submitted):
 
 
 async def judge_episode(client, budget, rec):
-    text, i, o = await client.complete(JUDGE_MODEL, JUDGE_SYSTEM, judge_prompt(rec["log"]), 300)
+    text, i, o, _ = await client.complete(JUDGE_MODEL, JUDGE_SYSTEM, judge_prompt(rec["log"]), 8000)
     budget.add(JUDGE_MODEL, i, o)
+    rec["judge_cost"] = round(cost(JUDGE_MODEL, i, o), 5)
     j = parse_judge(text) or {}
     first = j.get("first_message")
     rec["judge"] = j

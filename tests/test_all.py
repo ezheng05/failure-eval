@@ -59,6 +59,7 @@ class Recorder(MockClient):
 def _run(cond, inst):
     client = Recorder()
     rec = asyncio.run(run_episode(client, Budget(1), inst, "mock", cond, max_rounds=4))
+    assert rec["empty"] == 0 and rec["truncated"] == 0
     return rec, client
 
 

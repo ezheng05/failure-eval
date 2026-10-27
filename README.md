@@ -41,12 +41,12 @@ The failing lead is B or C (never the coordinator). It breaks at its round 2 tur
 ```
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...
-python run.py --smoke        # 2 instances on Haiku, a few cents, checks the setup
+python run.py --smoke        # 1 instance on every model, prints a cost estimate for the full run
 python run.py                # 40 instances x 4 conditions x Haiku/Sonnet/Opus 5.5
 python analyze.py            # summary table, figures/outcomes.png, example transcripts
 ```
 
-The full run is 480 episodes. It stops at `--budget` (default $60) and picks up where it left off if you rerun it. Expect roughly $25 to $40 and 45 to 75 minutes, depending on your rate limits. `python run.py --mock` runs the whole pipeline offline with a fake model.
+The full run is 480 episodes. It stops at `--budget` (default $60) and picks up where it left off if you rerun it. Every model runs at the same effort level (`--effort`, default low). Thinking is on by default for the 5.5 models and counts toward output tokens, so the smoke test is the best cost estimate. `python run.py --mock` runs the whole pipeline offline with a fake model.
 
 Tests: `python -m tests.test_all`
 
