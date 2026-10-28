@@ -37,4 +37,6 @@ python analyze.py        # summary, chart, example transcripts
 
 ## Limitations
 
-One task family, one provider, 30 episodes per cell, and only 8 wrong bookings, so the replay vs. silent gap could be noise. Detection is labeled by an LLM judge. The round 2 notice makes failures easy to spot, and Sonnet and Opus are near a ceiling. Next I'd drop the notice, add a cost to escalating, or add time pressure.
+This is a small test. It's one task, only Claude models, and 30 episodes per condition. There were just 8 wrong bookings total, so I wouldn't read too much into replay causing more of them than silent yet. An LLM judge decided when a failure counted as noticed, so those numbers could be off too.
+
+It's also probably too easy. The round 2 notice tells everyone an update is coming, so a missing one stands out, and Sonnet and Opus handle that almost perfectly. I want to try a version without the notice, and one where escalating has a cost, to see if the stronger models start to pull apart.
