@@ -2,7 +2,11 @@
 
 What happens to a team of LLM agents when one of them breaks partway through a task? This takes the question from my multi-agent RL research and applies it to Claude agents.
 
-Three leads schedule 5 meetings into 8 slots, and each one can only see its own team's calendars. Lead A coordinates and can either submit a schedule or escalate to a human. In round 2 every lead gets a calendar update, and lead B or C breaks right when it should share its update. It either goes silent, restarts with no memory of the chat, or keeps replaying its round 1 message. Every instance is filtered so a schedule built without the lost update is probably wrong.
+Three leads schedule 5 meetings into 8 slots, and each one can only see its own team's calendars. Lead A coordinates and can either submit a schedule or escalate to a human. In round 2 every lead gets a calendar update, and lead B or C breaks right when it should share its update. Every instance is filtered so a schedule built without the lost update is probably wrong. The failure modes:
+
+- silent: stops posting
+- restart: comes back with its notes but no memory of the chat
+- replay: keeps reposting its round 1 message
 
 ## Results
 
@@ -10,11 +14,12 @@ Three leads schedule 5 meetings into 8 slots, and each one can only see its own 
 
 ![outcomes](figures/outcomes.png)
 
-Every model solved every baseline. With a failing teammate, agents almost always noticed, flagging it in 87 to 100% of episodes. The mistakes came after that. Agents booked a wrong schedule 8 times in 180 failure episodes, and in 4 of those the coordinator had already flagged the problem and submitted anyway on the last round.
-
-Replay caused 6 of the 8 wrong bookings, silent caused 2, and restarts caused none. A replaying teammate still looks active, and twice its stale message happened to confirm the current plan, so the coordinator counted it. All 8 wrong bookings missed the failing lead's update and had no other errors.
-
-Opus never booked a wrong schedule and usually escalated before the final round. Sonnet and Haiku almost always waited for the last round, which is where 5 of the 8 wrong bookings happened.
+- Every model solved every baseline instance.
+- Agents almost always noticed the failure, flagging it in 87 to 100% of episodes.
+- They booked a wrong schedule 8 times in 180 failure episodes. In 4 of those, the coordinator had already flagged the problem and submitted anyway on the last round.
+- Replay caused 6 of the 8 wrong bookings, silent caused 2, and restarts caused none. Twice, a replayed message happened to confirm the current plan and the coordinator counted it.
+- All 8 wrong bookings missed the failing lead's update and had no other errors.
+- Opus never booked a wrong schedule and usually escalated before the final round. Sonnet and Haiku almost always waited for the last round, where 5 of the 8 wrong bookings happened.
 
 Full numbers are in results/episodes_summary.csv and transcripts are in results/episodes_examples.md.
 
