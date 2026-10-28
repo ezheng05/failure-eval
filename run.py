@@ -11,7 +11,7 @@ from tfe.env import generate_set, save_instances, load_instances
 from tfe.runner import AnthropicClient, MockClient, Budget, run_all, CONDITIONS, MODELS, EFFORT
 
 INST_PATH = "data/instances.json"
-FULL_INSTANCES = 40
+FULL_INSTANCES = 30
 
 
 def cost_report(path):
