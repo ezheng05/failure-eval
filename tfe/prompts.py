@@ -1,5 +1,5 @@
-# Ellen Zheng | 10/26/26 | teammate-failure-eval
-# prompts.py: agent and judge prompts, action parsing
+# Ellen Zheng | 10/26/26 | failure-eval
+# agent and judge prompts, action parsing
 
 import json
 import re

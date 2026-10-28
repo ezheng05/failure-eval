@@ -1,5 +1,5 @@
-# Ellen Zheng | 10/26/26 | teammate-failure-eval
-# env.py: scheduling instances, ground truth, grading
+# Ellen Zheng | 10/26/26 | failure-eval
+# scheduling instances, ground truth, grading
 
 import json
 import random

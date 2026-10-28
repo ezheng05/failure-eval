@@ -1,5 +1,5 @@
-# Ellen Zheng | 10/26/26 | teammate-failure-eval
-# test_all.py: run with `python -m tests.test_all` or pytest
+# Ellen Zheng | 10/26/26 | failure-eval
+# run with `python -m tests.test_all` or pytest
 
 import asyncio
 import json

@@ -1,5 +1,5 @@
-# Ellen Zheng | 10/26/26 | teammate-failure-eval
-# analyze.py: summary table, outcome chart, example transcripts
+# Ellen Zheng | 10/26/26 | failure-eval
+# summary table, outcome chart, example transcripts
 
 import argparse
 import json

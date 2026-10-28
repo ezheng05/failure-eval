@@ -1,5 +1,5 @@
-# Ellen Zheng | 10/26/26 | teammate-failure-eval
-# runner.py: episode loop, failure injection, model clients, budget
+# Ellen Zheng | 10/26/26 | failure-eval
+# episode loop, failure injection, model clients, budget
 
 import asyncio
 import json
@@ -23,7 +23,7 @@ PRICES = {
     "claude-opus-5-5": (4.00, 20.00),
 }
 JUDGE_MODEL = "claude-sonnet-5-5"
-# same effort for every model so the comparison is fair; thinking counts toward max_tokens
+# same effort for all models, thinking counts toward max_tokens
 EFFORT = "low"
 MAX_TOKENS = 16000
 

@@ -1,5 +1,5 @@
-# Ellen Zheng | 10/26/26 | teammate-failure-eval
-# run.py: generate instances and run episodes
+# Ellen Zheng | 10/26/26 | failure-eval
+# generate instances and run episodes
 
 import argparse
 import asyncio
